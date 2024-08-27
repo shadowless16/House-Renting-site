@@ -77,4 +77,53 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-around
+    justify-content: space-around;
+}
+
+.listing {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.listing img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.listing h3 {
+    margin: 15px 0;
+}
+
+.listing p {
+    margin-bottom: 10px;
+}
+
+.listing button {
+    padding: 10px 20px;
+    background-color: #ff4747;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+#about, #contact {
+    padding: 40px 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input, 
+#contact form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius
